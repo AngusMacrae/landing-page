@@ -23,7 +23,7 @@ h6 {
 header,
 main,
 footer {
-	padding: 50px 45px;
+	padding: 50px 30px;
 }
 
 .top-bar {
@@ -127,12 +127,20 @@ footer {
 	background-color: hsl(192, 100%, 9%);
 	color: white;
 	position: relative;
+	padding-top: 120px;
 }
 
 .footer-flex {
 	display: flex;
 	flex-flow: column nowrap;
-	align-items: center;
+}
+
+.footer-flex > div {
+	margin: 20px 0;
+}
+
+.footer-nav li {
+	margin: 15px 0
 }
 
 .floating {
