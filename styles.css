@@ -167,4 +167,31 @@ ul li {
 	align-items: center;
 }
 
-@media only screen and (min-width: 375px;) {}
+@media only screen and (min-width: 375px) {
+	.footer-flex {
+		flex-direction: row;
+	}
+	
+	.footer-contact-container {
+		
+	}
+	
+	.footer-nav-container {
+		flex: 1 0 auto;
+		display: flex;
+		flex-flow: column wrap;
+		align-content: stretch;
+	}
+	
+	.footer-nav-container li {
+/*		height: 33%;*/
+	}
+	
+	.footer-social-copyright {
+		justify-content: space-between
+	}
+	
+	.footer-flex div {
+		
+	}
+}
