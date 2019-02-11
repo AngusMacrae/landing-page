@@ -131,12 +131,32 @@ footer {
 
 .footer-flex {
 	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
 }
 
 .floating {
 	position: absolute;
 	top: -120px;
 	margin: 0 auto;
+}
+
+ul li {
+	list-style: none;
+}
+
+.footer-contact li {
+	display: flex;
+}
+
+.footer-contact li img {
+	flex: 0 0 auto;
+}
+
+.footer-social-copyright {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
 }
 
 @media only screen and (min-width: 375px;) {}
