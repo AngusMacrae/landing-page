@@ -64,7 +64,7 @@ header {
 
 .img-container img {
 	display: block;
-/*	max-width: 80%;*/
+		max-width: 80%;
 	margin: 0 auto;
 }
 
@@ -83,13 +83,18 @@ button {
 	color: white;
 }
 
-.button:hover, .button:active {
+.button:hover,
+.button:active {
 	background-color: hsl(322, 80%, 50%);
 	color: white;
 }
 
 .button:active {
 	background-color: hsl(322, 60%, 50%);
+}
+
+main {
+	padding-bottom: 200px;
 }
 
 .card {
@@ -127,7 +132,8 @@ footer {
 	background-color: hsl(192, 100%, 9%);
 	color: white;
 	position: relative;
-	padding-top: 120px;
+	padding-top: 160px;
+	padding-bottom: 10px;`
 }
 
 .footer-flex {
@@ -143,10 +149,16 @@ footer {
 	margin: 15px 0
 }
 
-.floating {
+.floating-wrapper {
 	position: absolute;
+	width: 460px;
+	margin: 0 calc(50vw - 270px);
 	top: -120px;
+}
+
+.floating {
 	margin: 0 auto;
+/*	width: 600px;*/
 }
 
 ul li {
@@ -160,7 +172,8 @@ ul li {
 
 .footer-contact li img {
 	flex-shrink: 0;
-	flex-basis: 1.8em;;
+	flex-basis: 1.8em;
+	;
 	margin-right: 30px;
 }
 
