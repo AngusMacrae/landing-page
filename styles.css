@@ -64,7 +64,7 @@ header {
 
 .img-container img {
 	display: block;
-	max-width: 80%;
+/*	max-width: 80%;*/
 	margin: 0 auto;
 }
 
@@ -155,10 +155,13 @@ ul li {
 
 .footer-contact li {
 	display: flex;
+	margin: 15px 0;
 }
 
 .footer-contact li img {
-	flex: 0 0 auto;
+	flex-shrink: 0;
+	flex-basis: 1.8em;;
+	margin-right: 30px;
 }
 
 .footer-social-copyright {
@@ -167,6 +170,7 @@ ul li {
 	align-items: center;
 }
 
+/*
 @media only screen and (min-width: 375px) {
 	.footer-flex {
 		flex-direction: row;
@@ -184,7 +188,7 @@ ul li {
 	}
 	
 	.footer-nav-container li {
-/*		height: 33%;*/
+		height: 33%;
 	}
 	
 	.footer-social-copyright {
@@ -194,4 +198,4 @@ ul li {
 	.footer-flex div {
 		
 	}
-}
+}*/
