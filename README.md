@@ -4,8 +4,9 @@
 
 ## HTML/CSS challenge project #1
 
-Thanks for checking out this front-end coding challenge. It's based on the design files found at [Frontend Mentor](https://www.frontendmentor.io).
+Thanks for checking out this front-end coding challenge. It's based on the design brief and supplied mockups found at [Frontend Mentor](https://www.frontendmentor.io).
 
-I'm working through these challenges to solidify my understanding of HTML and CSS, familiarise myself with a typical front end web developer's workflow, and get comfortable with using git and github.
+I'm working through these challenges to solidify my understanding of HTML and CSS, familiarise myself with a typical front end web developer's workflow, and get comfortable with using git and github. Aside from the design mockups, a style guide and images obtained from the link above, the HTML and CSS here is entirely my own work.
 
-JPEG design mockups for the desktop and mobile presentations of the site were found at the link above, alongside a style guide and images. Everything else here is my own work, seeking to utilise HTML, CSS and responsive web design techniques to replicate the design mockups.
+For this challenge specifically, I've made use of flexboxes and media queries in order to achieve a responsive design. Relative positioning was used to place the "Get Started for Free" container element over the border between the main content and footer, as specified in the design mockups. Webfonts were obtained from Google Fonts and social media icons from Font Awesome.
+
